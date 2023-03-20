@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hunger India</title>
+    <style>
+      
+      /* Top blue border with buttons */
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url('background.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      .top-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(32, 32, 115);
+        padding: 20px;
+        box-sizing: border-box;
+        height: 100px;
+        border-top: 10px solid rgb(32, 32, 115);
+      }
+      .top-bar button {
+        margin-right: 20px;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(32, 32, 115);
+        cursor: pointer;
+        font-size: 18px;
+      }
+      /* Donate button with heart symbol */
+      .donate-button {
+        margin-right:auto;
+        background-color: grey;
+        border-radius: 50%;
+        width: 100px;
+        height: 60px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 30px;
+      }
+      .donate-button:hover {
+        background-color: darkgrey;
+      }
+      .donate-button:before {
+        content: "\2665";
+      }
+      /* Main heading */
+      .main-heading {
+        text-align: center;
+        font-size: 36px;
+        color: rgb(32, 32, 115);
+        margin-top: 100px;
+      }
+      /* Vertical buttons with ellipsed shape background */
+      .vertical-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        position: relative;
+      }
+      .vertical-buttons button {
+        margin-bottom: 40px;
+        padding: 20px;
+        border: none;
+        border-radius: 50px;
+        color: black ;
+        background-color: rgb(138, 243, 255);
+        cursor: pointer;
+        width: 300px;
+        font-size: 24px;
+      }
+      .vertical-buttons button:hover {
+        background-color: rgb(18, 13, 49);
+        color:white;
+      }
+      /* Ellipsed shape background for vertical buttons */
+      
+    
+    </style>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div>
+        <h1 style="color: rgb(255, 255, 0); margin: 0;">Hunger India</h1>
+      </div>
+      <div>
+        <button>NGO login</button>
+        <button>Sign in</button>
+        <button>About us</button>
+        <button class="donate-button">Donate</button>
+      </div>
+    </div>
+    <h2 class="main-heading">HUNGER INDIA WELCOMES YOU !</h2>
+    <div class="vertical-buttons">
+      <button>DONATE FOOD</button>
+      <button>RATION TOKENS</button>
+      <button>RATION PATTERNS</button>
+      
+    </div>
+    </div>
+   
+  </body>
+</html
